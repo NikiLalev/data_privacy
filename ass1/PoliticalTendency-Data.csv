@@ -1,0 +1,11 @@
+﻿Age;Zipcode;Profession;Alignment
+25;56601;Engineer;PartyX
+34;56602;Doctor;PartyY
+66;56601;Teacher;PartyX
+24;56604;Engineer;PartyZ
+47;56603;Doctor;PartyZ
+51;56602;Student;PartyY
+22;56603;Student;PartyX
+28;56601;Doctor;PartyY
+31;56603;Engineer;PartyZ
+34;56602;Student;PartyX

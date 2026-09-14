@@ -1,0 +1,12 @@
+﻿age;workclass;education;occupation;race;sex;hours-per-week;native-country;income-range
+39;State-gov;Bachelors;Adm-clerical;White;Male;40;United-States;80000
+50;Self-emp-not-inc;Bachelors;Exec-managerial;White;Male;13;United-States;45000
+38;Private;HS-grad;Handlers-cleaners;White;Male;40;United-States;50000
+53;Private;11th;Handlers-cleaners;Black;Male;40;United-States;60000
+28;Private;Bachelors;Prof-specialty;Black;Female;40;Cuba;70000
+37;Private;Masters;Exec-managerial;White;Female;40;United-States;45000
+49;Private;9th;Other-service;Black;Female;16;Jamaica;40000
+52;Self-emp-not-inc;HS-grad;Exec-managerial;White;Male;45;United-States;100000
+31;Private;Masters;Prof-specialty;White;Female;50;United-States;30000
+42;Private;Bachelors;Exec-managerial;White;Male;40;United-States;90000
+37;Private;Some-college;Exec-managerial;Black;Male;80;United-States;50000
