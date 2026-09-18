@@ -11,6 +11,7 @@ dependencies = [
     "matplotlib>=3.11.1",
     "nltk>=3.10.3",
     "pandas>=3.0.5",
+    "pycanon>=1.0.1.post2",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
     "torch>=2.14.0",
