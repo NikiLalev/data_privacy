@@ -6,8 +6,10 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "datasets>=5.0.1",
+    "huggingface-hub>=1.31.0",
     "ipykernel>=7.3.0",
     "matplotlib>=3.11.1",
+    "nltk>=3.10.3",
     "pandas>=3.0.5",
     "pycanon>=1.0.1.post2",
     "scikit-learn>=1.9.1",
@@ -15,4 +17,5 @@ dependencies = [
     "torch>=2.14.0",
     "tqdm>=4.70.1",
     "transformers>=5.17.0",
+    "zstandard>=0.25.0",
 ]
