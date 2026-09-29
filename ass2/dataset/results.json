@@ -1,0 +1,30 @@
+[
+  {
+    "dimension": 64,
+    "recall_at_1": 0.475,
+    "recall_at_5": 0.775,
+    "recall_at_10": 0.85,
+    "latency": 0.04388378620147705
+  },
+  {
+    "dimension": 128,
+    "recall_at_1": 0.675,
+    "recall_at_5": 0.905,
+    "recall_at_10": 0.94,
+    "latency": 0.05073315620422363
+  },
+  {
+    "dimension": 256,
+    "recall_at_1": 0.74,
+    "recall_at_5": 0.895,
+    "recall_at_10": 0.96,
+    "latency": 0.050171374082565307
+  },
+  {
+    "dimension": 768,
+    "recall_at_1": 0.75,
+    "recall_at_5": 0.925,
+    "recall_at_10": 0.98,
+    "latency": 0.3423170566558838
+  }
+]

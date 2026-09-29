@@ -1,10 +1,8 @@
 import numpy as np
-from client import encode
-
 class Server:
-    def __init__(self, documents):
-        self.documents = documents
-        self.embeddings = encode(documents, dim=256, q_prefix=False)
+    def __init__(self, doc_ids, embeddings):
+        self.doc_ids = doc_ids
+        self.embeddings = embeddings
         
     def search(self, query_vector, k):
         """
@@ -18,6 +16,6 @@ class Server:
         top_k_similarities = similarities[top_k_indices]
         # sort by similarity in descending order and get indices
         sorted_top_k_indices = top_k_indices[np.argsort(-top_k_similarities)]
-        # return top k documents and their similarities
-        return [(self.documents[i], similarities[i]) for i in sorted_top_k_indices]
+        # return top k document ids and their similarities
+        return [(self.doc_ids[i], similarities[i]) for i in sorted_top_k_indices]
         
