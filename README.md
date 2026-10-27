@@ -1,3 +1,6 @@
 # data_privacy
 
-Configuration for results of assignmnet 2 3.1 - Habrok VS Code server interactive node with 8 cores and 16 GB of RAM.
+Repository for the Data Privacy course.
+
+- **Python environment**: Managed with `uv`. Run `uv sync` to install dependencies and `uv run <script.py>` to execute scripts.
+- **Zero-Knowledge Proofs (`ass3`)**: Uses `circom` and `snarkjs` (Node.js) to compile the $3 \times 3$ matrix multiplication circuit, generate proofs and validate them.
